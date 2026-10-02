@@ -1,0 +1,31 @@
+---
+title: zkpool-mesh Tutorial
+description: A step-by-step tutorial for building a ZK private pool on Solana with microservices, K3s, and DevSecOps.
+---
+
+Welcome to the **zkpool-mesh** tutorial.
+
+This tutorial documents the construction of a ZK private pool on Solana — from the first circuit to a production-grade Kubernetes deployment — with microservices, DevSecOps, and observability.
+
+## What you will build
+
+- A Groth16 circuit on Noir/BN254 for private SOL transfers
+- A Solana Anchor program with a verifier
+- A microservices backend (Rust, Node.js)
+- A Vue 3 frontend with a ZK witness pipeline
+- E2E tests with Playwright
+- Infrastructure as Code with Terraform and Ansible
+- A K3s cluster with GitOps (Argo CD)
+- A full DevSecOps pipeline (SAST, SBOM, signing, policy)
+
+## How to read this tutorial
+
+Each stage is a chapter. Every chapter answers three questions:
+
+1. **Why** this technology is used here.
+2. **How** to configure it.
+3. **What** to check to confirm it works.
+
+The English version is the default. The Russian version is available at `/ru/` with fallback to English for untranslated pages.
+
+Ready? Start with [Stage 0: Choosing a Docs Platform](/platform/).
