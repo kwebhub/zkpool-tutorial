@@ -22,13 +22,13 @@ export default defineConfig({
       social: [{ icon: "github", label: "GitHub", href: "https://github.com/kwebhub/zkpool-mesh" }],
       sidebar: [
         {
-          label: "Stage 0: Setup",
-          translations: { ru: "Этап 0: Настройка" },
+          label: "Stage 1: Baseline",
+          translations: { ru: "Этап 1: Базовая линия" },
           items: [
             {
-              label: "Choosing a Docs Platform",
-              translations: { ru: "Выбор платформы документации" },
-              slug: "platform",
+              label: "Independent on-chain state",
+              translations: { ru: "Независимое on-chain состояние" },
+              slug: "stage-1/baseline",
             },
           ],
         },
